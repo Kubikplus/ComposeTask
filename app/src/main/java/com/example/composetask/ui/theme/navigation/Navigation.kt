@@ -11,7 +11,7 @@ import com.example.composetask.ui.theme.view.MainPage
 @Composable
 fun Navigation() {
     val navController = rememberNavController()
-    NavHost(navController = navController, startDestination = Screen.MainScreen.route) {
+    NavHost(navController = navController, startDestination = Screen.StateScreen.route) {
         composable(route = Screen.MainScreen.route) {
             MainPage(navController = navController) {
             }
